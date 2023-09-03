@@ -110,5 +110,6 @@ with torch.no_grad():
 
 #用pt格式保存到本地
 torch.save(model,"MLP_model.pt")
+
 #输出准确率
 print(f"Accuracy of the model on the 10000 test images: {100 * correct / total:.2f}%")
